@@ -23,5 +23,19 @@ pipeline{
                 '''
             }
         }
+        stage("Stage 4"){
+            steps{
+                sh '''
+                echo "This is stage 4"
+                '''
+            }
+        }
+        stage("Stage 5"){
+            steps{
+                sh '''
+                echo "This is stage 5"
+                '''
+            }
+        }
     }
 }
