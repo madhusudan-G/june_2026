@@ -1,35 +1,35 @@
-pipeline{
+pipeline {
     agent any 
     }
-        stages{
-            stage("Stage 1"){
-                steps{
+        stages {
+            stage ("Stage 1") {
+                steps {
                     echo "========executing A========"
             }
         }
-            stage("Stage 2"){
-                steps{
+            stage("Stage 2") {
+                steps {
                     sh '''
                     echo "This is stage 2"
                     '''
             }   
         }
-            stage("Stage 3"){
-                steps{
+            stage ("Stage 3") {
+                steps {
                     sh '''
                     echo "This is stage 3"
                     '''
             }
         }
-            stage("Stage 4"){
-                steps{
+            stage ("Stage 4") {
+                steps {
                     sh '''
                     echo "This is stage 4"
                     '''
             }
         }
-            stage("Stage 5"){
-                steps{
+            stage ("Stage 5") {
+                steps {
                     sh '''
                     echo "This is stage 5"
                     '''
