@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    parameters {
+        string(name: 'Branch', defaultValue: 'Madhu', description: 'To deploy continuous CI/CD')
+    }
+
     stages {
         stage("Stage 1") {
             steps {
