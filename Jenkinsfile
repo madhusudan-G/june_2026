@@ -9,6 +9,7 @@ pipeline {
         stage("Stage 1") {
             steps {
                 echo "========executing A========"
+                sh 'ls -lrt'
             }
         }
 
